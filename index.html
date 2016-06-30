@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>todo | Technology Track</title>
+        <link rel="stylesheet" href="baseStyle.css">
+        <link id="pageStyle" rel="stylesheet" href="css/lightStyle.css">
+    </head>
+    <body>
+        <header>
+            <h1>todos</h1>
+            <button onclick="changeTheme()" style="float:right;">Change Theme</button>
+        </header>
+        <main>
+            <form onsubmit="return false;">
+                <input type="text" placeholder="What needs to be done?" autocomplete="off" id="newTask" autofocus='true'>
+                <button id="addButton">Add</button>
+            </form>
+            
+            <ul id="tasks">
+            </ul>
+        </main>
+        <div id="taskCounter">
+        </div>
+        <div id="optionHolder" class="hidden">
+            <!--
+            <button id="allButton">
+                All
+            </button>
+            <button id="activeButton">
+                Active
+            </button>
+            <button id="completedButton">
+                Completed
+            </button>
+            <button id="clearButton">
+                Clear Completed
+            </button>
+            -->
+        </div><!--Currently Empty-->
+        <footer>
+            <p>&copy;Torick J Davis 2016</p>
+        </footer>
+        <script src="js/script.js"></script>
+        <script src="js/theme.js"></script>
+    </body>
+</html>

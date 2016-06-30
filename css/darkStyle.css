@@ -1,0 +1,85 @@
+html {
+    background: #212121;
+    color: #fafafa;
+    font-family: "Courier New", courier, monospace;
+}
+
+.hidden, #hide {
+    display:none;
+}
+
+body {
+    margin:auto;
+    width:75%;
+    background: #303030;
+    text-align:center;
+}
+header {
+    background:#424242;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.15);
+}
+footer {
+    font-size: 11px;
+    padding: 3px;
+    box-shadow:
+        0 1px 1px rgba(0,0,0,0.15), /* The top layer shadow */
+        0 10px 0 -5px #303030, /* The second layer */
+        0 10px 1px -4px rgba(0,0,0,0.15), /* The second layer shadow */
+        0 20px 0 -10px #303030, /* The third layer */
+        0 20px 1px -9px rgba(0,0,0,0.15); /* The third layer shadow */
+}
+ul {
+    list-style-type:none;
+    text-align: left;
+}
+
+li {
+    width:100%;
+    /*border-bottom:2px solid #a5a5a5;*/
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+}
+
+button {
+    background:none;
+    font-family:inherit;
+    border:none;
+    outline:none;
+    color:inherit;
+}
+button:hover {
+    color:#a5a5a5;
+    text-decoration:underline;
+}
+
+.incomplete label {
+    text-decoration: none;
+}
+.complete label {
+    text-decoration: line-through;
+}
+
+#taskCounter {
+    font-size: 11px;
+    text-align:left;
+    padding-left:15px;
+}
+
+input[type=text] {
+    border:none;
+    /*border-bottom: 2px solid #a5a5a5;*/
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+    outline:none;
+    color:inherit;
+    font-family:inherit;
+    text-align:center;
+    width:100%;
+    background:inherit;
+}
+
+.delete {
+    float:right;
+}
+
+#addButton {
+    display:none;
+}
