@@ -1,7 +1,0 @@
-// Update (v4.0) //
-This update moves all of the CSS and JS into a folders respecitvely.
-The functions related to theme are now in their own file. (theme.js)
-
-The plans for the next update include:
-    - Display options for the list.
-    - Drop down selection of theme by box of main background color.
